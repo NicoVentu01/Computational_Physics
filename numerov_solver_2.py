@@ -14,9 +14,10 @@ plt.close('all')
 #GROUND STATE
 
 # Variables:
-n=30 #Principal quantum number
+k=3 #Principal quantum number
 l = 0 #Angular momentum quantum number
-E = 3/2 + n               #Energy
+n=2*k + l
+E = 3/2 + n              #Energy
 W = 1
 hbar = 1
 m = 1

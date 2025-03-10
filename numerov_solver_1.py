@@ -11,9 +11,10 @@ plt.close('all')
 #GROUND STATE
 
 # Variables:
-n=3
-l = 0
-E = 3/2 + n               #Energy
+k=1
+l = 1
+n= 2*k + l
+E = 3/2 + n              #Energy
 W = 1
 hbar = 1
 m = 1
